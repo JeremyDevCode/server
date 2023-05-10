@@ -4,7 +4,7 @@ import { Server } from "socket.io";
 const httpServer = createServer();
 const io = new Server(httpServer, {
   cors: {
-    origin: "https://tic-tac-toe-jeremydevcode.vercel.app",
+    origin: "https://tic-tac-toe-jeremydevcode.vercel.app/multiplayer",
     methods: ["GET", "POST"],
   },
 });
